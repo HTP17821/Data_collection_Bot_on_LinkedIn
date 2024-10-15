@@ -17,11 +17,11 @@ GitHub Repository: [here](https://github.com/HTP17821/Data_collection_Bot_on_Lin
 
 
 ### Features
-1. **Login to LinkedIn**: Automates the login process by reading credentials from the `Login_info.txt` file and submitting them on the LinkedIn login page.
-2. **Perform Search**: Enters a fixed search query (e.g., "Data Engineer") in the LinkedIn search bar to find relevant profiles.
-3. **Crawl Profile URLs**: Collects URLs of the profiles listed on the search results pages for further data extraction.
-4. **Extract Profile Information**: Extracts key information from each LinkedIn profile, such as name, job title, and location.
-5. **Save Data to Excel**: Stores the scraped profile data in an Excel file, making it easy to analyze and use later.
+ - task 1. **Login to LinkedIn**: Automates the login process by reading credentials from the `Login_info.txt` file and submitting them on the LinkedIn login page.
+ - task 2. **Perform Search**: Enters a fixed search query (e.g., "Data Engineer") in the LinkedIn search bar to find relevant profiles.
+ - task 3. **Crawl Profile URLs**: Collects URLs of the profiles listed on the search results pages for further data extraction.
+ - task 4. **Extract Profile Information**: Extracts key information from each LinkedIn profile, such as name, job title, and location.
+ - task 5. **Save Data to Excel**: Stores the scraped profile data in an Excel file, making it easy to analyze and use later.
 
 
 ## Requirements
