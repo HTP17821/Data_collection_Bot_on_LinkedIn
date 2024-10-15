@@ -24,6 +24,12 @@ GitHub Repository: [here](https://github.com/HTP17821/Data_collection_Bot_on_Lin
  - task 5. **Save Data to Excel**: Stores the scraped profile data in an Excel file, making it easy to analyze and use later.
 
 
+### Note
+- **Sleep() Function**: The `Sleep()` function is utilized to throttle the bot's operation speed, helping to avoid account bans by LinkedIn due to excessive requests.
+- **Data Scraping Challenges**: In Task 4, the data scraping function was not optimally implemented. As a result, the bot collects not only the URLs of the target user profiles but also the URLs of their connections. This issue leads to duplicated entries across multiple pages, resulting in an output that exceeds the actual number of unique profiles saved to the output file.
+- **Proposed Solution**: To address this, I plan to implement an ETL process that will loop through the output file to eliminate duplicate entries before saving the refined data into a data mart. (This enhancement will be developed and uploaded at a later stage. ^^)
+
+
 ## Requirements
 - Python 3.x
 - Required libraries listed in `requirements.txt`
